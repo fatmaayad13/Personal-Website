@@ -25,7 +25,7 @@
   display: flex;
   gap: 60px;
   list-style: none;
-  scroll-behavior: smooth;
+ 
 }
 .menuBtn {
   display: none; 
