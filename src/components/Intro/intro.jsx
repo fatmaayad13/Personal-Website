@@ -8,8 +8,13 @@ import resume from "../../../assets/resume/resume.pdf";
 export const Intro = () => {   
    const [resumeOpen, setResumeOpen] = useState(false);
 
-
     return (
+      <>
+    <div className={styles.backgroundBlurs}>
+      <div className={styles.topBlur} />
+      <div className={styles.bottomBlur} />
+    </div>
+
     <section className = {styles.container}> 
             <div className={styles.content}>
             <p className = {styles.subTitle}>Hey there!</p>
@@ -77,9 +82,11 @@ export const Intro = () => {
         </div>
       )}
             <img src= {image} alt="Fatma Ayad's Pic" className = {styles.introImg}></img>
-            <div className={styles.topBlur} />
-            <div className ={styles.bottomBlur} />
+
+
    </section>
+   
+</>
     );
 
 };

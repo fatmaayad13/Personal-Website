@@ -11,6 +11,7 @@
   box-sizing: border-box;
   padding: 58px 5%;
   gap: 10px;
+  z-index: 5;
 }
 
 .text h2 {
