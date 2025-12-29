@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import styles from "./Navbar.module.css";
-import {getImageUrl} from "../../utils";
-import ReactTypingEffect from "react-typing-effect";
+import { TypeAnimation } from "react-type-animation";
 import menuIcon from "../../../assets/nav/menuIcon.png"
 import closeIcon from "../../../assets/nav/closeIcon.png"
 
@@ -10,7 +9,12 @@ export const Navbar = () => {
     return (
     <nav className={styles.navbar}> 
         <a className={styles.title} href="/">
-            Portfolio
+              <TypeAnimation
+    sequence={["Portfolio"]}
+    speed={100}
+    wrapper="span"
+    repeat={1}
+  />
         </a>
         <div className={styles.menu}>
             <img 

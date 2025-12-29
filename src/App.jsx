@@ -1,19 +1,23 @@
 import styles from './App.module.css'
 import { Navbar } from './components/Navbar/Navbar';
-import ReactTypingEffect from 'react-typing-effect';
+import { Intro } from "./components/Intro/Intro";
+import { About } from "./components/About/About";
+import { Experience } from "./components/Experience/Experience";
+import { Projects } from "./components/Projects/Projects";
+import { Contact } from "./components/Contact/Contact";
+
 
 function App() {
-  return <div className={styles.App}> 
-  <Navbar />
-    {/* <ReactTypingEffect
-        text={["Hi! I'm Fatma.", "Welcome to my portfolio."]}
-        speed={100}    
-        eraseSpeed={50} 
-        typingDelay={500} 
-        cursor="_"
-      /> */}
+  return (
+  <div className={styles.App}> 
+      <Navbar />
+      <Intro />
+      <About />
+     {/* <Experience /> */}
+      {/* <Projects /> */}
+      {/* <Contact /> */}
   </div>
-
+  );
 }
 
 export default App;
