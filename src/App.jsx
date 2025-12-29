@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Intro />
       <About />
-      <Experience />
+      {/* <Experience /> */}
       <Projects />
       <Contact />
 
