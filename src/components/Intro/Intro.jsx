@@ -36,7 +36,7 @@ export const Intro = () => {
             repeat={Infinity}
           />
             </h1>
-            <p className = {styles.description}>Check out my website :)</p>
+            
               <ul className={styles.Buttons}>
                 <li>
                   <button
@@ -63,7 +63,10 @@ export const Intro = () => {
                   </button>
                 </li>
               </ul>
+              <br />
+              <p className = {styles.description}>Check out my website :)</p>
             </div>
+            
 
                   {resumeOpen && (
         <div className={styles.modalOverlay} 
@@ -82,6 +85,7 @@ export const Intro = () => {
         </div>
       )}
             <img src= {image} alt="Fatma Ayad's Pic" className = {styles.introImg}></img>
+            
 
 
    </section>

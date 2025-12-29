@@ -39,7 +39,9 @@
 }
 
 .description {
-  font-size: 30px;
+  display: flex;
+  padding: 17px 5px;
+  font-size: 20px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
 }
@@ -61,6 +63,7 @@
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   border: none;
+  cursor: pointer;
 
 }
 .modalOverlay {
