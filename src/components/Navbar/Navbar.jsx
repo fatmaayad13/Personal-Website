@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import styles from "./Navbar.module.css";
 import { TypeAnimation } from "react-type-animation";
-import menuIcon from "../../../assets/nav/menuIcon.png"
-import closeIcon from "../../../assets/nav/closeIcon.png"
+import menuIcon from "../../../assets/nav/menuIcon.png";
+import closeIcon from "../../../assets/nav/closeIcon.png";
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -10,9 +10,8 @@ export const Navbar = () => {
     <nav className={styles.navbar}> 
         <a className={styles.title} href="/">
               <TypeAnimation
-    sequence={["Portfolio"]}
+    sequence={["Fatma's Portfolio"]}
     speed={100}
-    wrapper="span"
     repeat={1}
   />
         </a>
