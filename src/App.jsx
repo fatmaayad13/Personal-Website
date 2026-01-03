@@ -5,7 +5,7 @@ import { About } from "./components/About/About";
 import { Projects } from "./components/Projects/Projects";
 import { Contact } from "./components/Contact/Contact";
 import { Intro } from './components/Intro/Intro.jsx';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
