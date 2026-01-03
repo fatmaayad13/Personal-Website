@@ -13,6 +13,7 @@
     "@fontsource/outfit": "^5.2.8",
     "@fontsource/press-start-2p": "^5.2.7",
     "@fontsource/roboto": "^5.2.9",
+    "@vercel/analytics": "^1.6.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-type-animation": "^3.2.0",
