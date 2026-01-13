@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import styles from "./Intro.module.css";
 import image from "../../../assets/intro/fatmaAyad.png"
 import { TypeAnimation } from "react-type-animation";
-import resume from "../../../assets/resume/resume.pdf";
+
 
 
 export const Intro = () => {   
