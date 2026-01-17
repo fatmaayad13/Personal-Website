@@ -70,14 +70,14 @@ export const Intro = () => {
 
                   {resumeOpen && (
         <div className={styles.modalOverlay} 
-        style={{ position: "fixed", top: 0, left: 0, width: "100vw", height: "100vh", zIndex: 9999 }}
+        style={{ position: "fixed", top: 0, left: 0, width: "100%", height: "100%", zIndex: 9999 }}
         onClick={() => setResumeOpen(false)}>
           <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
                   <iframe
         src={resume}
         title="Resume"
         width="100%"
-        height="500px"
+        height="100%"
         style={{ border: "none" }}
       />
             <button className={styles.closeBtn} onClick={() => setResumeOpen(false)}>X</button>
