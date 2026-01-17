@@ -76,8 +76,8 @@ export const Intro = () => {
                   <iframe
         src={resume}
         title="Resume"
-        width="100%"
-        height="100%"
+        width="80%"
+        height="80%"
         style={{ border: "none" }}
       />
             <button className={styles.closeBtn} onClick={() => setResumeOpen(false)}>X</button>
