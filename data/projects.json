@@ -1,12 +1,13 @@
 [
   {
     "title": "RubberDuckBench",
-    "imageSrc": "../assets/projects/rubberduck.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "imageSrc": "../../../assets/projects/rubberduck.png",
+    "description": "An LLM benchmark used to evaluate how well do popular AI models answer contextualized questions about code in Python, Java, and C++. Additionally, I built a Next.js website to display the results of the benchmark.",
+    "skills": ["Java", "Python", "C++", "Typescript", "Javascript", "HTML/CSS","React","Next.JS"],
+    "demo": "https://arxiv.org/abs/2601.16456",
     "demoLabel": "Paper",
-    "source": "https://www.github.com"
+    "sourceLabel": "Website",
+    "source": "https://www.cs.brynmawr.edu/RubberDuckBench/"
   }
 
 ]
