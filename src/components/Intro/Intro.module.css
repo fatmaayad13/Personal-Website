@@ -21,6 +21,7 @@
 }
 
 .title {
+  
     font-size: 40px;
     font-weight: 900;
     margin-bottom: 33px;
@@ -30,7 +31,17 @@
   -webkit-background-clip: text;
 }
 .subTitle {
+
     font-size: 60px;
+    font-weight: 900;
+    color: var(--color-text);
+    margin-bottom: 33px;
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
+
+}
+.animeTitle {
+
+    font-size: 30px;
     font-weight: 900;
     color: var(--color-text);
     margin-bottom: 33px;
@@ -170,9 +181,10 @@
 }
 
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1100px) {
   .container {
     flex-direction: column-reverse;
+    z-index: 0;
   }
 
   .content {
@@ -181,7 +193,7 @@
 }
 
 
-@media screen and (max-height: 500px) {
+@media screen and (max-height: 900px) {
   .container {
     flex-direction: column-reverse;
   }

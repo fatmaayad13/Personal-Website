@@ -3,11 +3,12 @@
 .container {
   display: flex;
   flex-direction: column;
+  height: 100%; 
   border-radius: 15px;
-  background: linear-gradient(180deg, #79084ca6 0%, #ec7ba9 100%);
+  background: linear-gradient(180deg, var(--color-text) 5%, #ec7ba9 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 430px;
+  max-width: 500px;
 }
 
 .image {
@@ -15,6 +16,7 @@
 }
 
 .title {
+  
   font-size: 25px;
   font-weight: 700;
 }
@@ -39,7 +41,7 @@
   font-size: 20px;
   font-weight: 400;
   border-radius: 100px;
-  background: var(--color-dark);
+  background: var(--color-text);
   padding: 2px 22px;
 }
 
@@ -52,10 +54,10 @@
 
 .link {
   text-decoration: none;
-  color: var(--color-text);
+  color: #79084ca6;
   font-size: 20px;
   font-weight: 600;
   border-radius: 100px;
-  background: var(--color-primary);
+  background: var(--color-text);
   padding: 1px 22px;
 }

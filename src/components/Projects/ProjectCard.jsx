@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./ProjectCard.module.css";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source, demoLabel},
+  project: { title, imageSrc, description, skills, demo, source, demoLabel, sourceLabel},
 }) => {
   return (
     <div className={styles.container}>
@@ -27,10 +27,12 @@ export const ProjectCard = ({
         <a href={demo} className={styles.link}>
           {demoLabel ?? "Demo"}
         </a>
+        {source?.trim() && (
         <a href={source} className={styles.link}>
           {sourceLabel ?? "Source"}
         </a>
-      </div>
+        )}
+</div>
     </div>
   );
 };

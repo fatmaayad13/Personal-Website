@@ -8,6 +8,15 @@
     "demoLabel": "Paper",
     "sourceLabel": "Website",
     "source": "https://www.cs.brynmawr.edu/RubberDuckBench/"
+  },
+    {
+    "title": "Bryn Mawr Data Vizzes",
+    "imageSrc": "/assets/tableau.png",
+    "description": "Created data visualizations and graphs for Bryn Mawr College's website using Tableau.",
+    "skills": ["Tableau","HTML/CSS"],
+    "demo": "https://public.tableau.com/app/profile/fatma.ayad/vizzes"
+   
   }
+
 
 ]
