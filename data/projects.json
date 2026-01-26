@@ -1,7 +1,7 @@
 [
   {
     "title": "RubberDuckBench",
-    "imageSrc": "/public/rubberduck.png",
+    "imageSrc": "/assets/rubberduck.png",
     "description": "An LLM benchmark used to evaluate how well do popular AI models answer contextualized questions about code in Python, Java, and C++. Additionally, I built a Next.js website to display the results of the benchmark.",
     "skills": ["Java", "Python", "C++", "Typescript", "Javascript", "HTML/CSS","React","Next.JS"],
     "demo": "https://arxiv.org/abs/2601.16456",
