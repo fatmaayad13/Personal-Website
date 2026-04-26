@@ -192,6 +192,56 @@
   }
 }
 
+@media screen and (max-width: 480px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .subTitle {
+    font-size: 34px;
+    margin-bottom: 18px;
+  }
+
+  .animeTitle {
+    font-size: 20px;
+    margin-bottom: 18px;
+    text-align: center;
+  }
+
+  .description {
+    font-size: 16px;
+    margin-bottom: 28px;
+    text-align: center;
+  }
+
+  .Buttons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .contactBtn {
+    font-size: 16px;
+    padding: 12px 18px;
+  }
+
+  .heroImg {
+    width: min(420px, 85vw);
+  }
+
+  .modalContent {
+    width: 92vw;
+    height: 85vh;
+    padding: 14px;
+  }
+
+  .topBlur,
+  .bottomBlur {
+    min-width: 0;
+  }
+}
+
 
 @media screen and (max-height: 900px) {
   .container {
