@@ -30,7 +30,7 @@
     },
     {
         "title":  "Room8",
-        "imageSrc":  "/assets/projects/room8.png",
+        "imageSrc":  "/assets/room8.png",
         "description":  "Room8 is a full-stack iOS roommate management app for tracking shared expenses, chores, and household responsibilities in one place (Google’s Gemini Hackathon, Mar. 2026). Built with SwiftUI using an MVVM architecture and modular components for scalable multi-user sync.",
         "skills":  [
                        "Swift",
@@ -43,7 +43,7 @@
     },
     {
         "title":  "Vimulater",
-        "imageSrc":  "/assets/projects/vimulator.png",
+        "imageSrc":  "/assets/vimulator.png",
         "description":  "Vimulater is a Vim-inspired terminal text editor built in C with NCurses. I implemented the core editor architecture and CLI workflows with low-level text processing to keep editing responsive even on large files.",
         "skills":  [
                        "C",

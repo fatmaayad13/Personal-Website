@@ -84,7 +84,7 @@ export const Intro = () => {
             </div>
           </div>
         )}
-        <img src={image} alt="Fatma Ayad's Pic" className={styles.introImg}></img>
+        <img src={image} alt="Fatma Ayad's Pic" className={styles.heroImg}></img>
 
 
 
