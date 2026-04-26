@@ -1,22 +1,55 @@
 [
-  {
-    "title": "RubberDuckBench",
-    "imageSrc": "/assets/rubberduck.png",
-    "description": "An LLM benchmark used to evaluate how well do popular AI models answer contextualized questions about code in Python, Java, and C++. Additionally, I built a Next.js website to display the results of the benchmark.",
-    "skills": ["Java", "Python", "C++", "Typescript", "Javascript", "HTML/CSS","React","Next.JS"],
-    "demo": "https://arxiv.org/abs/2601.16456",
-    "demoLabel": "Paper",
-    "sourceLabel": "Website",
-    "source": "https://www.cs.brynmawr.edu/RubberDuckBench/"
-  },
     {
-    "title": "Bryn Mawr Data Vizzes",
-    "imageSrc": "/assets/tableau.png",
-    "description": "Created data visualizations and graphs for Bryn Mawr College's website using Tableau.",
-    "skills": ["Tableau","HTML/CSS"],
-    "demo": "https://public.tableau.com/app/profile/fatma.ayad/vizzes"
-   
-  }
-
-
+        "title":  "RubberDuckBench",
+        "imageSrc":  "/assets/rubberduck.png",
+        "description":  "An LLM benchmark used to evaluate how well do popular AI models answer contextualized questions about code in Python, Java, and C++. Additionally, I built a Next.js website to display the results of the benchmark.",
+        "skills":  [
+                       "Java",
+                       "Python",
+                       "C++",
+                       "Typescript",
+                       "Javascript",
+                       "HTML/CSS",
+                       "React",
+                       "Next.JS"
+                   ],
+        "demo":  "https://arxiv.org/abs/2601.16456",
+        "demoLabel":  "Paper",
+        "sourceLabel":  "Website",
+        "source":  "https://www.cs.brynmawr.edu/RubberDuckBench/"
+    },
+    {
+        "title":  "Bryn Mawr Data Vizzes",
+        "imageSrc":  "/assets/tableau.png",
+        "description":  "Created data visualizations and graphs for Bryn Mawr College\u0027s website using Tableau.",
+        "skills":  [
+                       "Tableau",
+                       "HTML/CSS"
+                   ],
+        "demo":  "https://public.tableau.com/app/profile/fatma.ayad/vizzes"
+    },
+    {
+        "title":  "Room8",
+        "imageSrc":  "/assets/projects/room8.png",
+        "description":  "Room8 is a full-stack iOS roommate management app for tracking shared expenses, chores, and household responsibilities in one place (Google’s Gemini Hackathon, Mar. 2026). Built with SwiftUI using an MVVM architecture and modular components for scalable multi-user sync.",
+        "skills":  [
+                       "Swift",
+                       "SwiftUI",
+                       "MVVM",
+                       "iOS"
+                   ],
+        "demo":  "https://github.com/fatmaayad13/Room8",
+        "demoLabel":  "Github"
+    },
+    {
+        "title":  "Vimulater",
+        "imageSrc":  "/assets/projects/vimulator.png",
+        "description":  "Vimulater is a Vim-inspired terminal text editor built in C with NCurses. I implemented the core editor architecture and CLI workflows with low-level text processing to keep editing responsive even on large files.",
+        "skills":  [
+                       "C",
+                       "NCurses"
+                   ],
+        "demo":  "https://github.com/fatmaayad13/vimulator-txt-editor",
+        "demoLabel":  "Github"
+    }
 ]
