@@ -16,7 +16,8 @@
         "demo":  "https://arxiv.org/abs/2601.16456",
         "demoLabel":  "Paper",
         "sourceLabel":  "Website",
-        "source":  "https://www.cs.brynmawr.edu/RubberDuckBench/"
+        "source":  "https://www.cs.brynmawr.edu/RubberDuckBench/",
+        "github": "https://github.com/elizabethdinella/RubberDuckBench/tree/main"
     },
     {
         "title":  "Bryn Mawr Data Vizzes",

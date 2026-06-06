@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar/Navbar';
 import { About } from "./components/About/About";
 // import { Experience } from "./components/Experience/Experience";
 import { Projects } from "./components/Projects/Projects";
+import { Artwork } from "./components/Artwork/Artwork";
 import { Contact } from "./components/Contact/Contact";
 import { Intro } from './components/Intro/Intro.jsx';
 import { Analytics } from "@vercel/analytics/react";
@@ -15,6 +16,7 @@ function App() {
       <About />
       {/* <Experience /> */}
       <Projects />
+      <Artwork />
       <Contact />
       <Analytics />
 

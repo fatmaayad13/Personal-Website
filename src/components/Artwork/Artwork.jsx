@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from "react";
 
-import styles from "./Projects.module.css";
+import styles from "./Artwork.module.css";
 
-import projects from "../../../data/projects.json";
-import { ProjectCard } from "./ProjectCard";
+import artwork from "../../../data/artwork.json";
+import { ArtworkCard } from "./ArtworkCard";
 
-export const Projects = () => {
+export const Artwork = () => {
   const sectionRef = useRef(null);
   const [isInView, setIsInView] = useState(false);
 
@@ -28,19 +28,18 @@ export const Projects = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} className={styles.container} id="projects">
-      <h2 className={styles.title}>Projects</h2>
+    <section ref={sectionRef} className={styles.container} id="artwork">
+      <h2 className={styles.title}>Artwork</h2>
       <div className={styles.projects}>
-        {projects.map((project, id) => (
-          <ProjectCard
+        {artwork.map((piece, id) => (
+          <ArtworkCard
             key={id}
-            project={project}
+            art={piece}
             visible={isInView}
             delay={id * 180}
           />
         ))}
       </div>
-      
     </section>
   );
 };

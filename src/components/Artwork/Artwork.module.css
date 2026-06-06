@@ -18,9 +18,10 @@
 
 .projects {
   margin-top: 37px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 425px));
-  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: stretch;   
   gap: 20px;
   width: 100%;
 }

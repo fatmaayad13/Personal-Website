@@ -2,9 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
     zoom: 0.98;
+}
 
+body {
+    font-family: "JetBrains Mono", Arial, Helvetica, sans-serif;
+}
 
+h1, h2, h3, h4, h5, h6, .title {
+    font-family: "Press Start 2P", Arial, Helvetica, sans-serif;
 }

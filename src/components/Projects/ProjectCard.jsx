@@ -3,10 +3,15 @@ import React from "react";
 import styles from "./ProjectCard.module.css";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source, demoLabel, sourceLabel},
+  project: { title, imageSrc, description, skills, demo, source, demoLabel, sourceLabel, github},
+  visible,
+  delay,
 }) => {
   return (
-    <div className={styles.container}>
+    <div
+      className={`${styles.container} ${visible ? styles.visible : ""}`}
+      style={{ transitionDelay: `${delay}ms` }}
+    >
       { <img
         src={imageSrc}
         alt={`Image of ${title}`}
@@ -29,7 +34,12 @@ export const ProjectCard = ({
         </a>
         {source?.trim() && (
         <a href={source} className={styles.link}>
-          {sourceLabel ?? "Source"}
+          {sourceLabel ?? "Website"}
+        </a>
+        )}
+        {github?.trim() && (
+        <a href={github} className={styles.link}>
+          GitHub
         </a>
         )}
 </div>

@@ -6,6 +6,7 @@ import App from './App.jsx'
 import "@fontsource/outfit"
 import "@fontsource/press-start-2p"
 import "@fontsource/roboto"
+import "@fontsource/jetbrains-mono"
 
 
 createRoot(document.getElementById('root')).render(
