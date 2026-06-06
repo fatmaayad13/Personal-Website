@@ -1,32 +1,32 @@
 [
   {
     "title": "Grandma Salma Painting",
-    "imageSrc": "/assets/art/GrandmaSalmaPainting.jpg",
+    "imageSrc": "/assets/GrandmaSalmaPainting.jpg",
     "description": "A portrait of my grandmother, Salma, created using oil paints on canvas."
   },
     {
     "title": "Fatma and Abdulsalam",
-    "imageSrc": "/assets/art/IMG_8145.jpeg",
+    "imageSrc": "/assets/IMG_8145.jpeg",
     "description": "An unfinished painting of my grandparents, Fatma and Abdulsalam, created using oil paints on canvas."
   },
   {
     "title": "Smoking Skull",
-    "imageSrc": "/assets/art/IMG_3601.jpeg",
+    "imageSrc": "/assets/IMG_3601.jpeg",
     "description": "A painting of a smoking skull, created using oil paints on paper."
   },
   {
     "title": "Pink Peonies",
-    "imageSrc": "/assets/art/IMG_4449.jpeg",
+    "imageSrc": "/assets/IMG_4449.jpeg",
     "description": "A painting of pink peonies, created using oil on canvas."
   },
   {
     "title": "Solider",
-    "imageSrc": "/assets/art/IMG_7697.jpg",
+    "imageSrc": "/assets/IMG_7697.jpg",
     "description": "A painting of a Libyan soldier, created using oil paints on canvas."
   },
   {
     "title": "In a Hotel Room in Tunis",
-    "imageSrc": "/assets/art/IMG_8059.jpeg",
+    "imageSrc": "/assets/IMG_8059.jpeg",
     "description": "A painting of a me in ahotel room in Tunis, created using oil paints on paper."
   }
 
